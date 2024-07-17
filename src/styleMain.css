@@ -1,0 +1,43 @@
+/* styleMain.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+.root {
+    -fx-background-color: black;
+}
+
+.menu-button {
+    -fx-font-size: 20px;
+    -fx-padding: 10px 10px;
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-min-width: 150px; /* Largura mínima fixa para todos os botões */
+    -fx-max-width: 150px; /* Largura máxima fixa para todos os botões */
+    -fx-alignment: center; /* Centralizar texto no botão */
+    -fx-font-family: 'Pixelify Sans', sans-serif;
+}
+
+.menu-button:hover {
+    -fx-background-color: #292929;
+}
+
+.menu-layout {
+    -fx-alignment: center;
+    -fx-padding: 50px;
+    -fx-spacing: 10px;
+    -fx-background-color: #000000; /* Cor de fundo preta */
+    -fx-font-family: 'Pixelify Sans', sans-serif; /* Mudar a fonte para 'Pixelify Sans' */
+}
+
+.logo-image {
+    -fx-padding: 0px 0; /* Ajustar padding da imagem do logo */
+    -fx-height: auto;
+}
+.PersonSelect-layout {
+    -fx-background-color: black;
+}
+
+.character-selection-layout {
+    -fx-background-color: black;
+}
+

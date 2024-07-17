@@ -1,0 +1,42 @@
+/* stylePersonSelect.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+.menu-layout {
+    -fx-alignment: center;
+    -fx-spacing: 20;
+    -fx-padding: 20;
+    -fx-background-color: #333;
+}
+
+.menu-button {
+    -fx-font-size: 16px;
+    -fx-padding: 10px 20px;
+    -fx-background-color: #555;
+    -fx-text-fill: white;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+.character-selection-layout {
+    -fx-background-color: black;
+}
+
+.character-box {
+    -fx-padding: 20;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+}
+
+.character-button {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+    -fx-border: none;
+    -fx-font-family: 'Pixelify Sans', sans-serif; /* Mudar a fonte para 'Pixelify Sans' */
+}
+
+.character-button:hover {
+    -fx-background-color: #292929;
+}
